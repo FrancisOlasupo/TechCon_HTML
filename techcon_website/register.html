@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- // HERO SECTION -->
+    <header>
+        <!-- ** Navigation bar Container ** -->
+        <nav class="nav-bar">
+        <!-- ** Techcon Logo ** -->
+            <a href="index.html"><img src="../assets/images/techcon icon.svg" alt="techcon-logo" width="324px" height="4px"/>
+            </a>
+            <!-- ** Menu ** -->
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </nav>
+        <!-- ** Hero section Text ** -->
+        <section class="header-text">
+            <h1>TechCon 2024</h1>
+            <p>
+                <h2 id="subheading-1">Where Innovation Meets Inspiration: Welcome to TechCon</h2>
+            </p>
+            <p>
+                <h2 class="subheading-2">The World Largest ech Gathering</h2>
+            </p>
+            <p>
+                <h2 id="date">June 20 - 30</h2>
+            </p>
+            <p>
+                <h2 id="venue">New York</h2>
+            </p>
+            <div><button class="btn-1" type="submit">GET YOUR TICKET</button>
+            <button class="btn-2" type="submit">BECOME A SPONSOR</button>
+            <button class="btn-3" type="submit">CALL FOR SPEAKERS </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <form action="submit_registration.php" method="post">
+            <h2>Register for TechCon 2024</h2>
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="company">Company/Organization:</label>
+                <input type="text" id="company" name="company" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="terms.html" target="_blank">terms and conditions</a></label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <section class="footer-section">
+            <div class="ft-ctn">
+                <div class="headph-icon-ctn">
+                <a href="#"><img src="./asset/images/images/logo_headphones.png" alt=""></a>
+                </div>
+                <div class="soc-media-icon-ctn">
+                <a href="#"><img src="./asset/images/images/social_icons.svg" alt=""></a>
+                </div>
+            </div>
+            <h3>©Techcon 2024</h3>
+        </section>
+    </footer>
+
+</body>
+</html>
